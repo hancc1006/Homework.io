@@ -1,0 +1,256 @@
+/* all descriptions and sections will have their own box*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* headers are formatted and given a font color and background color */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*This is the Hori part of the website title seen by the user*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*This is the seo part of the website title seen by the user and is given a different color*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*formats the header dividers*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*formats the unordered list section*/
+.header div ul {
+    list-style-type: none;
+}
+
+/*formats the unordered and listed item. However unordered list was formatted previously
+so should take precedence over this one*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*formatting the background color of the body section which is after the header section*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*format the anchor*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*formatting thefont size of paragraph/description of each item*/
+p {
+    font-size: 16px;
+}
+
+/*This is the divider where we place an image that is shown to the user*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*This is the search optimization engine description box
+ and we are moving the image to the right of the box it is in*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*This is the online reputation management description box and we
+are moving the image to the left of the box it is in*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*This styles all the description boxes*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*This styles the benefits box*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*This styles the lead management content*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*This styles the brand awareness content*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*This styles the cost awareness content*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*This styles the lead generation header within the benefit box*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*This styles the brand awareness header within the benefit box*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*This styles the cost management header within the benefit box*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*This styles the lead management's image in the benefit box*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*This styles the brand awareness's image in the benefit box*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*This styles the cost management's awareness in the benefit box*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*styling the search engine optimization header in the div section/box*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*styling the online reputation management header in the div section/box*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*styling the social media marketing header in the div section/box*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* The size of the search optimization image*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/*The size of the online repuation management image*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/*The size of the social media marketing image*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*style the header to be below the picture*/
+.caption{
+    /*float: left;*/
+    position:relative;
+    right:320px;
+    top:200px;
+
+}
+
+.caption1{
+    /*float:right;*/
+    position:relative;
+    left:650px;
+    top:200px;
+}
+
+/*styling the SEO header of the box
+header 2*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*styling the online reputation management header of the box
+header 2*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*styling the social media marketing header of the box
+header 2*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* footer-style the font and align the text at center*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*footer font size*/
+.footer h2 {
+    font-size: 20px;
+}
